@@ -1,0 +1,41 @@
+#history-bar {
+  display: flex;
+  flex: 1 1 auto;
+  height: 100%;
+  flex-direction: column;
+  border-right: 1px solid #bcbcbc;
+  width: 150px;
+  max-width: 150px;
+  font-size: 20px;
+  overflow-y: scroll;
+}
+
+#history-content {
+  height: 0;
+}
+
+.history-item {
+  border-bottom: 1px solid #bcbcbc;
+}
+
+.history-item.current {
+  background: rgba(0, 0, 0, .2);
+}
+
+.history-item-tile {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+}
+
+@media screen and (max-width: 767px) {
+  #history-bar {
+    width: 100px;
+    max-width: 100px;
+    font-size: 15px;
+  }
+  .history-item-tile {
+    width: 20px;
+    height: 20px;
+  }
+}
