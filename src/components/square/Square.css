@@ -72,7 +72,7 @@
   }
 }
 
-@media screen and (orientation: landscape), all and (max-height: 398px) {
+@media screen and (orientation: landscape) and (max-height: 398px) {
   #square {
     display: flex;
     flex-direction: row;
