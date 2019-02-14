@@ -17,8 +17,8 @@
 
 @media screen and (max-width: 767px) {
   #field {
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     border: 1px solid #aaa;
     border-radius: 2px;
   }

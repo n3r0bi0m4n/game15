@@ -7,7 +7,13 @@ import store from './store/store';
 import './index.css';
 import App from './App';
 
+import { saveGame } from './store/browserStorage';
+
 // import * as serviceWorker from './serviceWorker';
+
+window.onbeforeunload = function () {
+  saveGame(store.getState())
+};
 
 ReactDOM.render(
   <Provider store={store}>

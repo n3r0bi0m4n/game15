@@ -6,8 +6,7 @@ import pushHistoryReducer from './reducers/pushHistory';
 import historyMoveReducer from './reducers/historyMove';
 import checkWin from './reducers/checkWin';
 
-import { initialState } from './initialState';
-import { loadGame } from './browserStorage';
+import { initialStateGenerator, initialState } from './initialState';
 
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
@@ -22,6 +21,6 @@ const rootReducer = (state = initialState, action) => {
   }
 };
 
-const store = createStore(rootReducer, loadGame(), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+const store = createStore(rootReducer, initialStateGenerator(), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 export default store;
