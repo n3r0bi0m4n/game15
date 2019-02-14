@@ -6,31 +6,6 @@
   justify-content: center;
 }
 
-@media screen and (min-width: 768px) {
-  #field {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
-    border: 1px solid #aaa;
-    border-radius: 2px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  #field {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-radius: 2px;
-    width: 210px;
-    height: 210px;
-  }
-}
-
 .controls {
   min-height: 55px;
   width: 100%;
@@ -69,4 +44,44 @@
   background: rgba(0, 0, 0, .8);
   color: #fff;
   font-size: 65px;
+}
+
+
+@media screen and (min-width: 768px) {
+  #field {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #field {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    width: 210px;
+    height: 210px;
+  }
+}
+
+@media screen and (orientation: landscape), all and (max-height: 398px) {
+  #square {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .controls {
+    width: auto;
+  }
 }
