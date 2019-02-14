@@ -21,6 +21,8 @@ html, body {
   border-bottom: 1px solid #bcbcbc;
   border-radius: 2px;
   background: rgba(0, 0, 0, .1);
+  height: 38px;
+  min-height: 38px;
 }
 
 .flex {
