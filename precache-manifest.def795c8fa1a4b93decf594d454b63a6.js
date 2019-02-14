@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2bfbe4efa99478cf3129",
-    "url": "/game15/static/css/main.62f05108.chunk.css"
+    "revision": "834af2d04961e2fe3cd3",
+    "url": "/game15/static/css/main.b4771397.chunk.css"
   },
   {
-    "revision": "2bfbe4efa99478cf3129",
-    "url": "/game15/static/js/main.2bfbe4ef.chunk.js"
+    "revision": "834af2d04961e2fe3cd3",
+    "url": "/game15/static/js/main.834af2d0.chunk.js"
   },
   {
     "revision": "aa867840bb644f4bc450",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/game15/static/js/2.6f9379e2.chunk.js"
   },
   {
-    "revision": "b7be05fdb2382be8ea7a3b518e88029d",
+    "revision": "f6ca44f7e5d0aef00be11f798e1274aa",
     "url": "/game15/index.html"
   }
 ];
