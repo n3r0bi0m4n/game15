@@ -1,0 +1,83 @@
+.tile {
+  display: inline-flex;
+  font-size: 65px;
+  flex: 1 0 21%;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  border: 1px dotted #ddd;
+  transition: background .3s;
+}
+
+.tile.t1 {
+  background: rgba(128, 0, 0, .1);
+}
+
+.tile.t2 {
+  background: rgba(0, 128, 0, .1);
+}
+
+.tile.t3 {
+  background: rgba(0, 0, 128, .1);
+}
+
+.tile.t4 {
+  background: rgba(128, 128, 0, .1);
+}
+
+.tile.t5 {
+  background: rgba(128, 0, 128, .1);
+}
+
+.tile.t6 {
+  background: rgba(128, 128, 128, .1);
+}
+
+.tile.t7 {
+  background: rgba(255, 0, 0, .1);
+}
+
+.tile.t8 {
+  background: rgba(0, 255, 0, .1);
+}
+
+.tile.t9 {
+  background: rgba(0, 0, 255, .1);
+}
+
+.tile.t10 {
+  background: rgba(255, 255, 0, .1);
+}
+
+.tile.t11 {
+  background: rgba(255, 0, 255, .1);
+}
+
+.tile.t12 {
+  background: rgba(0, 255, 255, .1);
+}
+
+.tile.t13 {
+  background: rgba(128, 255, 128, .1);
+}
+
+.tile.t14 {
+  background: rgba(128, 255, 255, .1);
+}
+
+.tile.t15 {
+  background: rgba(255, 128, 255, .1);
+}
+
+
+.tile.t0:hover {
+  background: none;
+}
+
+.tile:hover {
+  background: #ffb0b0;
+}
+
+.tile.moveable:hover {
+  background: #b0ffb0;
+}

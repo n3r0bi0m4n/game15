@@ -1,6 +1,6 @@
 import { HISTORY_BACK, HISTORY_FORWARD } from '../actions/actions';
 import { initialState } from '../initialState';
-import { update } from '../helpers';
+import { update } from '../../helpers';
 
 export default function historyMoveReducer(state = initialState, action) {
   switch (action.type) {
